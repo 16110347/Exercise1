@@ -68,3 +68,33 @@
     position: absolute;
     bottom: 0;
 }
+
+/* about */
+
+.row h3 {
+    border-bottom: 1px solid black;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -6px;
+    text-align: center;
+}
+
+.row .col-sm-4 {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* akhir about */
+
+/* skill */
+
+.table {
+    margin-top: 25px;
+}
+
+.table td {
+    text-transform: lowercase;
+}
+
+/* akhir  skill */
