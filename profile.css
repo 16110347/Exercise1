@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0px;
     /* background-color: #f5f6fa; */
+    position: relative;
 }
 
 
@@ -161,3 +162,20 @@ p {
 }
 
 /* akhir contact */
+
+
+/*footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+}
+
+footer p {
+    color: salmon;
+    text-align: center;
+    position: relative;
+    top: 23.5%;
+}
