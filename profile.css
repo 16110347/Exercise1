@@ -107,6 +107,39 @@
 .koute {
     text-align: center;
     line-height: 378px;
+    /* font-family: 'B612', sans-serif; */
+    position: relative;
+}
+
+blockquote {
+
+    font-family: 'B612', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    /* margin-top: 50px; */
+    /* line-height: 1.4em; */
+    position: absolute;
+    margin: 60px auto;
+    right: 30px;
+}
+
+blockquote::before,
+blockquote::after {
+    content: open-quote;
+    font-size: 60px;
+    color: #999;
+    line-height: 0px;
+    position: relative;
+    top: 20px;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+
+p {
+    position: absolute;
+    bottom: 40px;
 }
 
 .hobby .row {
@@ -114,3 +147,17 @@
 }
 
 /* akhir hobby */
+
+/* contact */
+
+
+.contac {
+    min-height: 900px;
+}
+
+.row2 {
+    margin-top: 20px;
+
+}
+
+/* akhir contact */
